@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<head>
+<style>
+.colorBlanco{
+	color:#ffffff;
+}
+.fondoAzulGnp{
+	background-color: #004681;
+}
+.centradoText{
+	text-align:center;
+}
+
+@media screen and (min-width: 480px){
+.centrado{
+	margin:auto;
+	width:30%;
+	padding:10px;
+}
+}
+
+@media screen and (min-width: 740px){
+.centrado{
+	margin:auto;
+	width:50%;
+	padding:10px;
+}
+}
+
+@media screen and (min-width: 1000px){
+.centrado{
+	margin:auto;
+	width:60%;
+	padding:10px;
+}
+}
+
+.headerLogin{
+	padding:10px;
+	border-radius: 5px 5px 0px 0px;
+}
+
+.datosUsuario{
+	padding: 40px 30px;
+}
+
+input[type=text].usuario{
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('./imagenes/imgUser.png');
+	background-position: 10px 0px; 	
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+	text-align: center;
+}
+
+input[type=password].password{
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('./imagenes/imgPassword.png');
+    background-position: 10px 0px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+	text-align: center;
+}
+
+.button {
+    background-color: #fe7007;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.buttonNaranjaGNP{
+	width: 100%;
+	background-color: #fe7007;
+	font-size: 16px;
+	height: 40px;
+}
+
+</style>
+</head>
+<body>
+<div class="centrado">
+<div style="padding-bottom:30px;">
+<img src="./imagenes/imgLogoGnp.png"></img>
+</div>
+<div class="headerLogin centradoText fondoAzulGnp">
+<div>
+<img src="./imagenes/imgLogin.png"></img>
+</div>
+<span class="colorBlanco">Inicio de sesi&oacute;n</span>
+</div>
+<div class="datosUsuario">
+<div style="padding-bottom:5px;"><input class="usuario" type="text" placeholder="Correo electr&oacute;nico"></div>
+<div style="padding-bottom:5px;"><input class="password" type="password" placeholder="Contrase&ntilde;a"></div>
+<button class="button buttonNaranjaGNP colorBlanco">Registrarse</button>
+</div>
+</div>
+</body>
+</html>
